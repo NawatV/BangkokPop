@@ -1,6 +1,7 @@
 *** You should read and understand all the documents in the folder named PREREQUISITES.
 
 Conditions
+- Unzip population_bkk_full.zip & put the csv file in "my code". (C:/Users/Vip/Desktop/mycode/) 
 - Install the prerequisite libraries.
 - All the files should really be in a folder "mycode" > "bangkok_population" on the Desktop before running the project. (C:/Users/Vip/Desktop/mycode/bangkok_population) 
 - Do not forget to check & customize all the paths, in the source code, to make them be compatible with your computer before running the project. 
