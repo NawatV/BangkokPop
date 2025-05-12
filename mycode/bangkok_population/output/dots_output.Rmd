@@ -1,0 +1,7 @@
+---
+title: "Your 'Dots' output"
+output: html_document
+---
+```{r echo=FALSE}
+  m()
+```

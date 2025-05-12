@@ -1,0 +1,13 @@
+---
+title: "Your 'Bar Graph' output"
+output: html_document
+---
+```{r echo=FALSE}
+    par(bg = 'grey')
+    #barplot(total_pop_bar[1:2], las=2, xlab="Bangkok Population already divided", ylab="The amount", col=c("blue","red"), names =c("Male", "Female"),legend = rownames(total_pop_bar[1:2]), cex.names=1.0)
+    
+    bardata <- data.frame( Male= total_pop_bar[1], Female= total_pop_bar[2] )
+    barplot(as.matrix(bardata), main="Bangkok Population (Gender)", ylab="Dots on the map", beside=TRUE, col= c("blue","red"))
+    legend(13, 12, c("Male","Female"), cex=0.6, fill= c("purple","yellow"))
+    
+```
